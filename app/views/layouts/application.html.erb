@@ -9,7 +9,6 @@
 <body>
 
 <% flash.each do |type, message| %>
-<div id="flash" class="<% type %"><%= message %></div>
 <% end %>
 
 <%= yield %>
